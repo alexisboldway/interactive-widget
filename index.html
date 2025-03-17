@@ -18,7 +18,7 @@
             margin: 10px;
             padding: 10px;
             font-size: 16px;
-            width: 80%; /* Make inputs wider */
+            width: 80%;
             box-sizing: border-box;
         }
         button {
@@ -28,9 +28,25 @@
         }
         #resultText {
             margin-top: 20px;
-            white-space: pre-line; /* To display newlines correctly */
+            white-space: pre-line;
             font-size: 18px;
-            line-height: 1.6; /* Increase line height for better spacing */
+            line-height: 1.4; /* Reduced line-height for closer spacing */
+            text-align: left;
+        }
+        .category-feedback {
+            margin-bottom: 15px; /* Reduced margin between categories */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .category-feedback h3 {
+            margin: 0;
+            padding: 5px 0;
+            font-size: 20px;
+        }
+        .category-feedback p {
+            font-size: 16px;
+            margin: 5px 0; /* Reduced margin between text */
         }
     </style>
 </head>
@@ -38,7 +54,7 @@
     <div class="container">
         <h1>Input Scores and Get Results</h1>
         
-        <!-- Input fields for scores with larger size -->
+        <!-- Input fields for scores -->
         <input type="number" id="score1" placeholder="Personal Relationships (1-10)" min="1" max="10" />
         <input type="number" id="score2" placeholder="Professional Development (1-10)" min="1" max="10" />
         <input type="number" id="score3" placeholder="Health and Wellness (1-10)" min="1" max="10" />
@@ -49,14 +65,14 @@
         <!-- Button to generate results -->
         <button onclick="generateResults()">Generate Results</button>
         
-        <!-- Display the results text with more spacing -->
-        <div id="resultText"></div>
-        
-        <!-- Pie chart to visualize results -->
+        <!-- Pie chart to visualize results (moved to the top) -->
         <canvas id="pieChart"></canvas>
+        
+        <!-- Display the results text with improved spacing -->
+        <div id="resultText"></div>
     </div>
 
     <!-- Link to the JavaScript file -->
-    <script src="script.js"></script>
+    <script src="https://drive.google.com/uc?id=1KpRJUOKFw6NvC4lE-mPutnYQgtZq9uu9"></script>
 </body>
 </html>

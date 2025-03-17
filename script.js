@@ -1,31 +1,25 @@
 // Feedback data (Life Area, Alignment Level, Feedback & Recommendations)
 const feedbackData = [
-    // Personal Relationships
     { area: 'Personal Relationships', rangeStart: 8, rangeEnd: 10, feedback: 'You\'re highly aligned in your personal relationships. Continue nurturing these connections intentionally to sustain and deepen your bonds.' },
     { area: 'Personal Relationships', rangeStart: 5, rangeEnd: 7, feedback: 'Your relationships show promise, but increasing intentional communication and setting clearer boundaries will strengthen these bonds.' },
     { area: 'Personal Relationships', rangeStart: 1, rangeEnd: 4, feedback: 'Consider evaluating and clearly communicating your needs and boundaries to improve your personal relationship alignment.' },
     
-    // Professional Development
     { area: 'Professional Development', rangeStart: 8, rangeEnd: 10, feedback: 'Excellent alignment! Keep leveraging your professional strengths and continue setting ambitious, aligned goals for career growth.' },
     { area: 'Professional Development', rangeStart: 5, rangeEnd: 7, feedback: 'Good start, but define clearer professional goals and identify resources or mentors who can support further growth.' },
     { area: 'Professional Development', rangeStart: 1, rangeEnd: 4, feedback: 'Immediate clarity on your professional goals and skills development is needed. Define actionable steps for career advancement and alignment.' },
     
-    // Health and Wellness
     { area: 'Health and Wellness', rangeStart: 8, rangeEnd: 10, feedback: 'Great job! Maintain your current wellness practices and routines, and consider sharing these habits to support others.' },
     { area: 'Health and Wellness', rangeStart: 5, rangeEnd: 7, feedback: 'Solid foundation; focus on improving consistency in your health routines like exercise, nutrition, or rest.' },
     { area: 'Health and Wellness', rangeStart: 1, rangeEnd: 4, feedback: 'Your responses highlight room for improvement; consider setting clear, manageable wellness goals to get back on track.' },
     
-    // Personal Growth & Learning
     { area: 'Personal Growth & Learning', rangeStart: 8, rangeEnd: 10, feedback: 'Strong alignment! Keep nurturing your personal growth mindset and regularly explore new learning opportunities.' },
     { area: 'Personal Growth & Learning', rangeStart: 5, rangeEnd: 7, feedback: 'Good effort. Commit to consistent personal development activities or regular learning practices to further close the gap.' },
     { area: 'Personal Growth & Learning', rangeStart: 1, rangeEnd: 4, feedback: 'You can improve significantly by scheduling regular learning opportunities, exploring new interests, or seeking personal growth resources.' },
     
-    // Financial Alignment
     { area: 'Financial Alignment', rangeStart: 8, rangeEnd: 10, feedback: 'Your financial habits align strongly with your vision. Continue reviewing your financial goals to maintain this strong alignment.' },
     { area: 'Financial Alignment', rangeStart: 5, rangeEnd: 7, feedback: 'You\'re making progress; consider refining your financial goals or budgeting to ensure your resources align with your priorities.' },
     { area: 'Financial Alignment', rangeStart: 1, rangeEnd: 4, feedback: 'Immediate action required. Develop a clear financial plan to better align your spending and saving habits with your vision.' },
     
-    // Emotional and Mental Wellness
     { area: 'Emotional and Mental Wellness', rangeStart: 8, rangeEnd: 10, feedback: 'Strong alignment. Keep practicing emotional regulation techniques and mental wellness activities that support your overall resilience.' },
     { area: 'Emotional and Mental Wellness', rangeStart: 5, rangeEnd: 7, feedback: 'Solid foundation; incorporate additional mindfulness, meditation, or emotional support routines regularly to further enhance alignment.' },
     { area: 'Emotional and Mental Wellness', rangeStart: 1, rangeEnd: 4, feedback: 'It\'s important to prioritize your mental and emotional well-being immediately. Consider activities like meditation, counseling, or journaling.' },
