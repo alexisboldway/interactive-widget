@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Widget</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        canvas {
+            max-width: 100%;
+        }
+        input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 80%; /* Make inputs wider */
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        #resultText {
+            margin-top: 20px;
+            white-space: pre-line; /* To display newlines correctly */
+            font-size: 18px;
+            line-height: 1.6; /* Increase line height for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Input Scores and Get Results</h1>
+        
+        <!-- Input fields for scores with larger size -->
+        <input type="number" id="score1" placeholder="Personal Relationships (1-10)" min="1" max="10" />
+        <input type="number" id="score2" placeholder="Professional Development (1-10)" min="1" max="10" />
+        <input type="number" id="score3" placeholder="Health and Wellness (1-10)" min="1" max="10" />
+        <input type="number" id="score4" placeholder="Personal Growth & Learning (1-10)" min="1" max="10" />
+        <input type="number" id="score5" placeholder="Financial Alignment (1-10)" min="1" max="10" />
+        <input type="number" id="score6" placeholder="Emotional and Mental Wellness (1-10)" min="1" max="10" />
+        
+        <!-- Button to generate results -->
+        <button onclick="generateResults()">Generate Results</button>
+        
+        <!-- Display the results text with more spacing -->
+        <div id="resultText"></div>
+        
+        <!-- Pie chart to visualize results -->
+        <canvas id="pieChart"></canvas>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
